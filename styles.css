@@ -1,13 +1,21 @@
 .blue {
-    color: rgba(255, 255, 0, 1);
+    color: blueviolet;
 }
 
 h1 {
-    color: green;
+    color: firebrick;
+}
+
+h2 {
+    color:black;
+}
+
+h3 {
+    color:aquamarine;
 }
 
 body{
-    color:red;
+    color:gray;
 }
 
 .box {
