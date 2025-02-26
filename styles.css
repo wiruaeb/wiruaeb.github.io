@@ -34,3 +34,25 @@ ul {
 ol {
     color:white;
 }
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+
+}
+
+body {
+    background-color: rgb(68, 67, 67);
+}
