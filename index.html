@@ -6,29 +6,45 @@
     <title>Importance of Lake Michigan Fishing</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        h1 {
-            font-family: 'Georgia', serif;
-            font-weight: bold;
-            color: white;
-        }
-
-        h2 {
-            font-family: 'Arial', sans-serif;
-            font-weight: bold;
-            color: white;
-        }
-
-        h3 {
-            font-family: 'Courier New', monospace;
-            font-weight: bold;
-            color: white;
-        }
-
         body {
             background-color: rgb(68, 67, 67);
             color: white;
             margin: 0;
             padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: 'Georgia', serif;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 60%; /* Adjust the width to control spacing */
+            margin: 0 auto; /* Centering block elements */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
         }
 
         .footer-box {
@@ -38,6 +54,11 @@
             padding: 15px 0;
             position: relative;
             bottom: 0;
+        }
+
+        ul, ol {
+            display: inline-block;
+            text-align: left;
         }
     </style>
 </head>
